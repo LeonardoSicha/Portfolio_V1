@@ -483,7 +483,7 @@ span {
 @media (min-width: 768px) {
 
     .contenedor__footer {
-        width: 120rem;
+        width: min(90%, 120rem);
     }
 
     .footer__barra {
@@ -496,7 +496,6 @@ span {
     }
 
     .derecha {
-
         display: flex;
         justify-content: end;
         border-bottom: 1px solid var(--colorParrafos);
